@@ -11,7 +11,7 @@ export default function OrdersLayout() {
                 headerShown: false,
                 title: 'Orders'
                 }} />
-        </Stack>>
-    );
+        </Stack>
+    )
 }       
 

@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "rn-shop",
+     "scheme": "rn-shop",
     "slug": "rn-shop",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,6 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    
     "ios": {
       "supportsTablet": true
     },
@@ -24,7 +26,11 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
